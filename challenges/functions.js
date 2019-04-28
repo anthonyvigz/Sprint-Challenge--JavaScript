@@ -31,9 +31,11 @@ function greeting(first, last) {
 
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
-// consume(2,2,add); // 4
-// consume(10,16,multiply); // 160
-// consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+
+consume(2,2,add); // 4
+consume(10,16,multiply); // 160
+consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
+
 
 
 // ==== Closures ==== 
@@ -55,3 +57,7 @@ function myFunction() {
   nestedFunction();
 }
 myFunction();
+
+
+let answer = "Simply put, a closure represents the scope for every variable, function, and object that can be accessed from itself."
+let answer2 = "The 'nestedFunction' can access the internal variable because it's a child of the parent function, this would not be able to occur if it was vice versa."
